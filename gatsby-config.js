@@ -4,7 +4,9 @@ module.exports = {
     title: "bbb",
   },
   plugins: [
-    "gatsby-plugin-theme-ui",
+    {
+      resolve: "gatsby-plugin-theme-ui",
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
@@ -23,6 +25,20 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-source-sanity`,
+      options: {
+        projectId: "fxd0zoye",
+        dataset: `production`,
+        // a token with read permissions is required
+        // if you have a private dataset
+        token: process.env.SANITY_TOKEN,
+
+        // If the Sanity GraphQL API was deployed using `--tag <name>`,
+        // use `graphqlTag` to specify the tag name. Defaults to `default`.
+        graphqlTag: "default",
+      },
     },
   ],
 };
