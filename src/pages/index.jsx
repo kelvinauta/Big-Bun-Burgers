@@ -7,7 +7,7 @@ import { jsx, Text } from "theme-ui";
 import Layout from "../components/Layout";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
-import Rrss from "../components/rrss";
+import Rrss from "../components/Rrss";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
