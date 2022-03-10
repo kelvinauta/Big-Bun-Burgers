@@ -11,7 +11,7 @@ import DomToImage from "dom-to-image";
 import { exportComponentAsPNG } from "react-component-export-image";
 import domtoimage from "dom-to-image-more";
 
-const Picrew = () => {
+const Yourcustombunny = () => {
   const features = picrewData[0].features;
   const [select, setSelect] = useState(0);
   const [selectVersion, setSelectVersion] = useState(0);
@@ -222,4 +222,4 @@ const Asset = ({ asset, select, setSelect, index }) => {
   );
 };
 
-export default Picrew;
+export default Yourcustombunny;
