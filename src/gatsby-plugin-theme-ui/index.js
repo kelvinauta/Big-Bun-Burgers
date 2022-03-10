@@ -30,6 +30,13 @@ export default {
       },
       cursor: "pointer",
     },
+    outlined: {
+      variant: "buttons.primary",
+      background: "transparent",
+      border: "1px solid",
+      borderColor: "primary",
+      color: "primary",
+    },
   },
   secondary: {
     variant: "buttons.primary",

@@ -1,0 +1,251 @@
+[
+  {
+    "title": "Bunnys",
+    "description": "Bunnies are cute and fluffy",
+    "author": "Hanon",
+    "features": [
+      {
+        "title": "Ears",
+        "assets": [
+          {
+            "title": "red",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655499539259442/Folder-36-Copy-2.png"
+          },
+          {
+            "title": "pink",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655500021624874/Folder-36-Copy-3.png"
+          },
+          {
+            "title": "orange",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655500457803846/Folder-36-Copy.png"
+          },
+          {
+            "title": "yellow",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655500856295444/Folder-36.png"
+          },
+          {
+            "title": "red",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655469340266536/Folder-35-Copy-2.png"
+          },
+          {
+            "title": "pink",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655469923283044/Folder-35-Copy-3.png"
+          },
+          {
+            "title": "orange",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655470225285251/Folder-35-Copy.png"
+          },
+          {
+            "title": "yellow",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655470686642266/Folder-35.png"
+          },
+          {
+            "title": "red",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655336674439199/Folder-6-Copy-2.png"
+          },
+          {
+            "title": "pink",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655336879972372/Folder-6-Copy-3.png"
+          },
+          {
+            "title": "orange",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655337165176942/Folder-6-Copy.png"
+          },
+          {
+            "title": "yellow",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655337391681626/Folder-6.png"
+          }
+        ]
+      },
+      {
+        "title": "Face",
+        "description": "Bunnies have faces",
+        "icon": "fa-smile-o",
+        "assets": [
+          {
+            "id": "face-yellow",
+            "title": "Face Yellow",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655467188596756/Folder-29.png"
+          },
+          {
+            "id": "face-red",
+            "title": "Face Red",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655467515768842/Folder-30.png"
+          },
+          {
+            "id": "face-pink",
+            "title": "Face Pink",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655467930980352/Folder-31.png"
+          }
+        ]
+      },
+      {
+        "title": "Hair",
+        "description": "Bunnies have hair",
+        "icon": "fa-paint-brush",
+        "assets": [
+          {
+            "id": "hair-yellow",
+            "title": "Hair Yellow",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655439967567903/Folder-20.png"
+          },
+          {
+            "title": "hair-black",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655440168906852/Folder-19.png"
+          },
+          {
+            "title": "hair-orange",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655370354704404/Folder-18.png"
+          },
+          {
+            "title": "hair-red",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655369666830346/Folder-16.png"
+          },
+          {
+            "title": "hair-blue",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655370161762394/Folder-17.png"
+          },
+          {
+            "title": "Hair Pink",
+            "assetUrl": "https://media.discordapp.net/attachments/948092415842078720/948655439762051122/Folder-21.png?width=495&height=495"
+          }
+        ]
+      },
+      {
+        "title": "Eyes",
+        "assets": [
+          {
+            "title": "h",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655335974002749/Folder-3.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655336250810438/Folder-4.png"
+          },
+
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655336473133087/Folder-5.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655337651732520/Folder-7.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655337878212688/Folder-8.png"
+          }
+        ]
+      },
+      {
+        "title": "Mouth",
+        "assets": [
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655368282701834/Folder-9.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655368479858708/Folder-10.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655368664404029/Folder-11.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655368848941146/Folder-12.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655369046081536/Folder-13.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655369247391774/Folder-14.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655369465499668/Folder-15.png"
+          }
+        ]
+      },
+      {
+        "title": "Clothes",
+        "assets": [
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655438482771968/Folder-27.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655438881247232/Folder-25.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655439069986846/Folder-24.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655439069986846/Folder-24.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655439250329610/Folder-23.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655439501991946/Folder-22.png"
+          }
+        ]
+      },
+      {
+        "title": "Hand Left",
+        "assets": [
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655501154078740/Folder-37-Copy-2.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655501586096208/Folder-37-Copy-3.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655525300699146/Folder-37-Copy.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655525598462032/Folder-37.png"
+          },
+
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655526181490758/Folder-38-Copy-3.png"
+          }
+        ]
+      },
+      {
+        "title": "Hand Right",
+        "assets": [
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655501896478790/Folder-37-Copy-4.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655502336860200/Folder-37-Copy-5.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655502651428905/Folder-37-Copy-6.png"
+          },
+          {
+            "title": "",
+            "assetUrl": "https://cdn.discordapp.com/attachments/948092415842078720/948655503255437412/Folder-37-Copy-7.png"
+          }
+        ]
+      }
+    ]
+  }
+]

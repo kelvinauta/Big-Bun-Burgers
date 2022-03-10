@@ -13,7 +13,6 @@ const Layout = ({ children }) => {
           font-family: "Montserrat", sans-serif;
         }
       `}</style>
-      <Footer />
     </div>
   );
 };

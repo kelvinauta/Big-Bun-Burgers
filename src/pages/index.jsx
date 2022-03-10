@@ -95,6 +95,7 @@ const IndexPage = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 };

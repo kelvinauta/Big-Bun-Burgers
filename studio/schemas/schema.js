@@ -7,6 +7,7 @@ import {
   links,
 } from "./documents/siteSetting";
 import { comic, page } from "./documents/comic";
+import { picrew, featured, asset } from "./documents/picrew";
 import { character } from "./documents/character";
 import { people, link } from "./documents/people";
 // Then import schema types from any plugins that might expose them
@@ -24,6 +25,7 @@ export default createSchema({
     comic,
     character,
     people,
+    picrew,
     //objects
 
     generalData,
@@ -31,5 +33,7 @@ export default createSchema({
     links,
     link,
     page,
+    featured,
+    asset,
   ]),
 });
