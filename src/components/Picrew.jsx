@@ -6,12 +6,7 @@ import Layout from "../components/Layout";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 import Rrss from "../components/Rrss";
-import { saveAs } from "file-saver";
-import DomToImage from "dom-to-image";
-import { exportComponentAsPNG } from "react-component-export-image";
-import domtoimage from "dom-to-image-more";
-
-const Yourcustombunny = () => {
+const Picrew = () => {
   const features = picrewData[0].features;
   const [select, setSelect] = useState(0);
   const [selectVersion, setSelectVersion] = useState(0);
@@ -26,61 +21,57 @@ const Yourcustombunny = () => {
     });
     setAssets(defaultAssets);
   }, []);
-
   return (
-    <Layout>
+    <div
+      sx={{
+        variant: "div.flex",
+      }}
+    >
+      <Title>your Custom Bunnys</Title>
       <div
         sx={{
           variant: "div.flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
         }}
       >
-        <Title>your Custom Bunnys</Title>
+        {features.map((feature, i) => {
+          return (
+            <Features
+              key={i}
+              index={i}
+              feature={feature}
+              select={select}
+              setSelect={setSelect}
+            />
+          );
+        })}
         <div
           sx={{
-            variant: "div.flex",
-            flexDirection: "row",
+            width: "80%",
+            display: "flex",
+
             flexWrap: "wrap",
+            justifyContent: "space-around",
+            alignItems: "between",
           }}
         >
-          {features.map((feature, i) => {
-            return (
-              <Features
-                key={i}
-                index={i}
-                feature={feature}
-                select={select}
-                setSelect={setSelect}
-              />
-            );
-          })}
-          <div
-            sx={{
-              width: "80%",
-              display: "flex",
+          <Canva assets={assets} />
 
-              flexWrap: "wrap",
-              justifyContent: "space-around",
-              alignItems: "between",
+          <LoadAssets
+            assets={features[select].assets}
+            setAsset={(asset) => {
+              console.log(asset);
+              let newAssets = [...assets];
+              newAssets[select] = asset;
+              setAssets(newAssets);
             }}
-          >
-            <Canva assets={assets} />
-
-            <LoadAssets
-              assets={features[select].assets}
-              setAsset={(asset) => {
-                console.log(asset);
-                let newAssets = [...assets];
-                newAssets[select] = asset;
-                setAssets(newAssets);
-              }}
-            />
-          </div>
+          />
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };
-
 const Features = ({ feature, select, setSelect, index }) => {
   return (
     <div>
@@ -144,24 +135,7 @@ const LoadAssets = ({ assets, setAsset }) => {
 
 const Canva = ({ assets }) => {
   const canvaAssets = useRef(null);
-  const saveImage = () => {
-    domtoimage
-      .toBlob(canvaAssets.current)
-      .then((blob) => {
-        saveAs(blob, "conejo.png");
-      })
-      .catch((err) => {
-        console.log("error");
-      });
-    // DomToImage.toJpeg(canvaAssets.current)
-    //   .then((blob) => {
-    //     saveAs(blob, `bbb.png`);
-    //   })
-    //   .catch((e) => {
-    //     console.error("Hubo un error al guardar la Image");
-    //     console.error(e);
-    //   });
-  };
+
   return (
     <div>
       <div
@@ -199,9 +173,6 @@ const Canva = ({ assets }) => {
           );
         })}
       </div>
-      {/* <div>
-        <Button onClick={() => saveImage()}>Save Image</Button>
-      </div> */}
     </div>
   );
 };
@@ -222,4 +193,4 @@ const Asset = ({ asset, select, setSelect, index }) => {
   );
 };
 
-export default Yourcustombunny;
+export default Picrew;
