@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Card from "../components/Card";
 
 /*@jsx jsx */
-import { jsx, Text } from "theme-ui";
+import { Button, jsx, Text } from "theme-ui";
 import Layout from "../components/Layout";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
@@ -55,6 +55,7 @@ const IndexPage = () => {
             sx={{
               fontSize: ["1.2rem", "1.5rem"],
               padding: "8px",
+              paddingLeft: 0,
               //   border: "4px solid",
               //   boxShadow: `inset ${3}px ${0}px 0px #f68e5c,
               //   inset ${3 * 2}px ${0}px 0px #ec3a4b,
@@ -71,6 +72,13 @@ const IndexPage = () => {
             A comic about the misadventures of the Big Bun crew and their
             attempts at keeping the business afloat!
           </Text>
+          <a href="https://bigbunburgers.the-comic.org/">
+
+          <Button>
+            Read the Comic 👀
+          </Button>
+          </a>
+          <br />
           <Rrss />
         </div>
         <div
